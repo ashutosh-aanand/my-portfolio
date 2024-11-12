@@ -1,19 +1,19 @@
 import React from 'react'
 import { Icons } from '../Icons'
 
-export const About = () => {
+export const About = ({data}) => {
   return (
     <div className='w-1/2 py-24 max-h-screen flex flex-col justify-between'>
       <div>
         
         <h1 className='text-5xl font-bold tracking-tight text-slate-200'>
-          Ashutosh Anand
+          {data.name}
         </h1>
         <h2 className='text-xl font-medium text-slate-200 mt-3 tracking-tight'>
-          Senior Software Engineer
+          {data.role}
         </h2>
         <p className='mt-4 max-w-xs leading-normal'>
-          I build reliable backends that power smooth and rapid web experience
+          {data.shortDescription}
         </p>
         
         <nav>
@@ -35,11 +35,11 @@ export const About = () => {
       {/* Social Media */}
       <ul className='flex items-center ml-1 mt-8'>
         <li className='mr-5 hover:text-slate-200 transition-all'>
-          <a href="https://github.com/ashutosh-aanand">{Icons.github}</a>
+          <a href={data.githubLink} target='_blank'>{Icons.github}</a>
         </li>
 
         <li className='mr-5 hover:text-slate-200 transition-all'>
-          <a href="https://www.linkedin.com/in/ashutosh-anand1">{Icons.linkedin}</a>
+          <a href={data.linkedInLink} target='_blank'>{Icons.linkedin}</a>
         </li>
 
 
