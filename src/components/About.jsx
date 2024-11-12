@@ -34,11 +34,11 @@ export const About = () => {
 
       {/* Social Media */}
       <ul className='flex items-center ml-1 mt-8'>
-        <li className='mr-4'>
+        <li className='mr-5 hover:text-slate-200 transition-all'>
           <a href="https://github.com/ashutosh-aanand">{Icons.github}</a>
         </li>
 
-        <li className='mr-4'>
+        <li className='mr-5 hover:text-slate-200 transition-all'>
           <a href="https://www.linkedin.com/in/ashutosh-anand1">{Icons.linkedin}</a>
         </li>
 
