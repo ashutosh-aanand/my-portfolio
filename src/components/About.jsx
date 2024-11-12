@@ -17,10 +17,16 @@ export const About = () => {
         </p>
         
         <nav>
-          <ul>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Projects</li>
+          <ul className='mt-16 w-max text-xs font-bold uppercase tracking-widest text-slate-500'>
+            <li className='mt-3 hover:text-slate-300 transition-all'>
+              <a href="#about">About</a>
+            </li>
+            <li className='mt-3 hover:text-slate-300 transition-all'>
+              <a href="#experience">Experience</a>
+            </li>
+            <li className='mt-3 hover:text-slate-300 transition-all'>
+              <a href="#projects">Projects</a>
+            </li>
           </ul>
         </nav>
 
