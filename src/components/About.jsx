@@ -6,9 +6,15 @@ export const About = () => {
     <div className='w-1/2 py-24 max-h-screen flex flex-col justify-between'>
       <div>
         
-        <h1>Ashutosh Anand</h1>
-        <h2>Senior Software Engineer</h2>
-        <p>I build reliable backends that power smooth and rapid web experience</p>
+        <h1 className='text-5xl font-bold tracking-tight text-slate-200'>
+          Ashutosh Anand
+        </h1>
+        <h2 className='text-xl font-medium text-slate-200 mt-3 tracking-tight'>
+          Senior Software Engineer
+        </h2>
+        <p className='mt-4 max-w-xs leading-normal'>
+          I build reliable backends that power smooth and rapid web experience
+        </p>
         
         <nav>
           <ul>
