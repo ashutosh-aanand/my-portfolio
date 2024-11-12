@@ -3,7 +3,7 @@ import { Icons } from '../Icons'
 
 export const About = () => {
   return (
-    <div className='lg:w-1/2 lg:py-24'>
+    <div className='w-1/2 py-24 max-h-screen flex-col justify-between'>
       <div>
         
         <h1>Ashutosh Anand</h1>
@@ -21,21 +21,18 @@ export const About = () => {
       </div>
 
       {/* Social Media */}
-      <ul>
-        <li>
+      <ul className='flex items-center ml-1 mt-8'>
+        <li className='mr-4'>
           <a href="https://github.com/ashutosh-aanand">{Icons.github}</a>
         </li>
 
-        <li>
+        <li className='mr-4'>
           <a href="https://www.linkedin.com/in/ashutosh-anand1">{Icons.linkedin}</a>
         </li>
 
-        
+
       </ul>
-
       
-
-
     </div>
   )
 }
