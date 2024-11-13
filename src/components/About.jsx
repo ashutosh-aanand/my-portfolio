@@ -3,10 +3,10 @@ import { Icons } from '../Icons'
 
 export const About = ({data}) => {
   return (
-    <div className='w-1/2 py-24 max-h-screen flex flex-col justify-between sticky top-0'>
+    <div className='lg:w-1/2 py-24 max-h-screen flex flex-col justify-between lg:sticky lg:top-0'>
       <div>
         
-        <h1 className='text-5xl font-bold tracking-tight text-slate-200'>
+        <h1 className='sm:text-5xl text-4xl font-bold tracking-tight text-slate-200'>
           {data.name}
         </h1>
         <h2 className='text-xl font-medium text-slate-200 mt-3 tracking-tight'>
