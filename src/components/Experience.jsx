@@ -23,7 +23,7 @@ export const Experience = () => {
 
   return (
     <>
-      <section id="experience" class="mt-24">
+      <section id="experience" class="mt-24 scroll-mt-24">
         <ol>
           {experiences.map(experience => (
             <li class="mb-12">
