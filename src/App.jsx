@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="h-screen bg-slate-900 text-slate-400">
-      <div className="lg:flex gap-4 h-screen lg:px-24 lg:py-0">
+      <div className="lg:flex gap-4 min-h-screen lg:px-24 lg:py-0 max-w-screen-xl mx-auto">
         <About data={data}/>
         <Details/>
       </div>
