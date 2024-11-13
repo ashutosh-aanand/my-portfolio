@@ -20,7 +20,7 @@ export const Experience = () => {
       skills: ["Java", "OpenCSV", "Multithreading", "Distributed Systems", "Grafana", "Prometheus", "Requirement Analysis", "System Integration"]
     },
     {
-      period: { from: "January 2022", to: "June 2022" },
+      period: { from: "Jan 2022", to: "June 2022" },
       company: "Paytm",
       role: "Software Engineering Intern",
       link: "",
@@ -28,21 +28,21 @@ export const Experience = () => {
       skills: ["Java", "JUnit", "Mockito", "Integration Testing", "Requirement Gathering", "System Architecture"]
     },
     {
-      period: { from: "January 2021", to: "April 2021" },
-      company: "Eko India Financial Services",
-      role: "Software Engineer Intern",
-      link: "",
-      description: "Developed a full-stack website to facilitate financial transactions via API integration, with a dashboard displaying detailed merchant transaction statistics. This solution accelerated API demos and product launches, streamlining organizational workflows.",
-      skills: ["JavaScript", "HTML", "CSS", "API Integration", "Dashboard Development", "Data Visualization", "Full-Stack Development"]
-    },
-    {
-      period: { from: "June 2021", to: "August 2021" },
+      period: { from: "June 2021", to: "Sept 2021" },
       company: "Prepbytes",
       role: "Technical Content Engineer Intern",
       link: "",
       description: "Created educational content and resources for software development placement prep at Prepbytes. Collaborated on tutorials, blogs, and problem-solving strategies, while mentoring students in competitive programming and interview preparation.",
       skills: ["Competitive Programming", "Mentoring", "C++", "Blogging", "Educational Content Creation", "Problem Solving"]
-    }        
+    },
+    {
+      period: { from: "Jan 2021", to: "Apr 2021" },
+      company: "Eko India Financial Services",
+      role: "Software Engineer Intern",
+      link: "",
+      description: "Developed a full-stack website to facilitate financial transactions via API integration, with a dashboard displaying detailed merchant transaction statistics. This solution accelerated API demos and product launches, streamlining organizational workflows.",
+      skills: ["JavaScript", "HTML", "CSS", "API Integration", "Dashboard Development", "Data Visualization", "Full-Stack Development"]
+    }    
   ];
 
   return (
