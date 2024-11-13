@@ -49,8 +49,8 @@ export const Experience = () => {
     <>
       <section id="experience" class="mt-24 scroll-mt-24">
         <ol>
-          {experiences.map(experience => (
-            <li class="mb-12">
+          {experiences.map((experience, key) => (
+            <li class="mb-12" key={key}>
             <div class="grid grid-cols-8">
              
               <header class="col-span-2 text-xs font-semibold text-slate-500 tracking-wide uppercase mb-2 mt-1">
@@ -66,8 +66,8 @@ export const Experience = () => {
                 </p>
                 
                 <ul class="flex flex-wrap mt-2">
-                  {experience.skills.map(skill => (
-                    <li class="mr-1.5 mt-2">
+                  {experience.skills.map((skill, k) => (
+                    <li class="mr-1.5 mt-2" key={k}>
                       <div class="px-2 py-1/2 bg-teal-400/10 leading-5 text-xs font-medium text-teal-500 rounded-full">
                         {skill}
                       </div>
