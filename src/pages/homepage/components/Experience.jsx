@@ -52,7 +52,7 @@ export const Experience = () => {
           {experiences.map((experience, key) => (
             <li class="mb-12" key={key}>
             <div class="grid grid-cols-8 
-                        p-4 hover:bg-slate-800/50 hover:drop-shadow-md rounded-lg transition-all">
+                        lg:p-4 md:p-3 p-0 lg:hover:bg-slate-800/50 md:hover:bg-slate-800/50 hover:drop-shadow-md rounded-lg transition-all">
              
               <header class="col-span-2 text-xs font-semibold text-slate-500 tracking-wide uppercase mb-2 mt-1">
                 {experience.period.from} - {experience.period.to}
